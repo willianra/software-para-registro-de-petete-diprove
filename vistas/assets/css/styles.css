@@ -1,0 +1,74 @@
+#slider {
+  text-align: center;
+  padding: 40px;
+  background-image: url(../../assets/img/Policia-Diprove.jpg);
+}
+
+#buscar {
+  padding-right: 5px;
+  margin-left: 20px;
+  color: white;
+}
+
+#registrar {
+  color: white;
+}
+
+#slider .jumbotron {
+  border: 50px;
+  padding: 50px;
+  background-color: rgb(255,255,255,0.70);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* para mobile */
+
+@media (max-width: 360px) {
+  #slider .jumbotron {
+    padding: 20px;
+  }
+}
+
+#clase {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#clasev {
+  margin-top: 5px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#panel {
+  border: solid rgb(0,0,0) 2px;
+}
+
+#new {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#buscar {
+  text-align: center;
+}
+
+#search-container {
+  text-align: center;
+}
+
+.row.panel-fondo {
+  margin-left: 5px;
+}
+
+.col-sm-2.col-md-2.text-center.text-primary.col-vehiculo {
+}
+
+.col-md-2.col-vehiculo {
+  border: solid red;
+  border-radius: 5px;
+}
+
